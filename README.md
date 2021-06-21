@@ -7,3 +7,9 @@ To start the slide show:
 - visit http://localhost:3030
 
 Hosted : https://fsm-xstate.surge.sh
+
+
+### DEMO LINKS
+
+Using StateMachine - https://codesandbox.io/s/using-state-machine-2jqfq
+Without StateMachine - https://codesandbox.io/s/without-state-machine-i0t4e
