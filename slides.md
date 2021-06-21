@@ -191,6 +191,42 @@ class: text-center
 
 
 ---
+layout: center
+class: text-center
+---
+
+<h1><span class="text-red-500">Major challenge</span> with FSMs</h1>
+
+---
+layout: center
+class: text-center
+---
+
+# Traffic Light
+
+<img width="500" src="/light.png">
+
+---
+layout: center
+class: text-center
+---
+# State <span class="text-red-500">Explosion</span>
+
+<img width="500" src="/light-bomb.png">
+
+<a href="https://statecharts.dev/state-machine-state-explosion.html">Another Example</a>
+
+---
+layout: center
+class: text-center
+---
+
+<h1>
+<div class="text-red-500">Statecharts</div>
+Hierarchical finite state machines
+</h1>
+
+---
 
 # Resources
 
