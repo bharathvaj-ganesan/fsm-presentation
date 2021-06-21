@@ -227,6 +227,34 @@ Hierarchical finite state machines
 </h1>
 
 ---
+layout: center
+class: text-center
+---
+
+# Hierarchical (Nested) State Machines
+
+<img width="400" src="/light-heir.png">
+
+---
+layout: center
+class: text-center
+---
+
+# Parallel State Machines
+
+<img width="400" src="https://imgur.com/GKd4HwR.png">
+
+---
+layout: center
+class: text-center
+---
+
+# History States
+
+<img width="400" src="https://imgur.com/I4QsQsz.png">
+
+---
+
 
 # Resources
 
