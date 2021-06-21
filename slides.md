@@ -242,7 +242,10 @@ class: text-center
 
 # Parallel State Machines
 
-<img width="400" src="https://imgur.com/GKd4HwR.png">
+<div class="flex">
+  <div class="flex items-center"><img width="400" height="300" src="/concurrent_ui.gif"></div>
+  <img width="400" src="https://imgur.com/GKd4HwR.png">
+</div>
 
 ---
 layout: center
