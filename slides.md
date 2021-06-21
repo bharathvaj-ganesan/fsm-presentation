@@ -90,10 +90,36 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div class="flex justify-center flex-col items-center h-100 text-center">
   <div>
     <img class="m-auto" height="300" width="400" src="http://web.mit.edu/2.744/studentSubmissions/humanUseAnalysis/keval/vm.jpg">
-    <div class="mt-4">Start -> Select Shelf -> Money -> Dispatch Snacks</div>
+    <div class="mt-4">Start -> Select Shelf -> Money -> More money (if not enough) -> Dispatch Snacks</div>
   </div>
 </div>
 
+
+---
+
+<div class="flex justify-center flex-col items-center h-100">
+  <h1>Time for demo</h1>
+</div>
+
+---
+
+<div class="flex justify-center flex-col items-center h-100">
+  <h1>🍑🆙<br/><span class="text-red-500">Bottom-up </span>approach</h1>
+</div>
+
+---
+
+# Challenges
+
+<li v-click>Difficult to understand</li>
+<li v-click>Will contain bugs</li>
+<li v-click>Difficult to test</li>
+<li v-click>Difficult to enhance</li>
+<li v-click>Features make it worse</li>
+
+<v-click>
+  <img class="float-right abs-br m-6" width="600" src="/bool.png" >
+</v-click>
 
 ---
 
