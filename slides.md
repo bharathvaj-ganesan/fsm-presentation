@@ -155,7 +155,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <!-- https://sli.dev/guide/syntax.html#line-highlighting -->
 
 ```ts
-{
+const waterMachine = Machine({
   id: 'water',
   initial: 'solid',
   states: {
@@ -176,7 +176,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
       }
     }
   }
-}
+});
 ```
 
 ---
