@@ -123,48 +123,61 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-### Keyboard Shortcuts
-
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+<div class="flex justify-center flex-col items-center h-100">
+  <h1>User interfaces are <span v-click class="text-red-500">graphs</span></h1>
+</div>
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+
+<div class="flex justify-center flex-col items-center h-100">
+  <h1><span class="text-red-500">Designing</span> state machines</h1>
+</div>
+
+
 ---
 
-# Code
+<div class="flex justify-center flex-col items-center h-100">
+  <h1>Time for another viz demo using XSTATE</h1>
+</div>
 
-Use code snippets and get the highlighting directly!
+---
+
+# States of Matter: <span class="text-red-500">Water</span>
+<div class="flex justify-center flex-col items-center h-100">
+  <img width="500" src="https://raw.githubusercontent.com/jakesgordon/javascript-state-machine/master/examples/matter.png">
+</div>
+
+---
+
+# Water Machine
+
 
 <!-- https://sli.dev/guide/syntax.html#line-highlighting -->
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
+```ts
+{
+  id: 'water',
+  initial: 'solid',
+  states: {
+    solid: {
+      on: {
+        MELT: 'liquid'
+      }
+    },
+    liquid: {
+      on: {
+        VAPORIZE: 'gas',
+        FREEZE: 'solid'
+      }
+    },
+    gas: {
+      on: {
+        CONDENSE: 'liquid'
+      }
+    }
+  }
 }
 ```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
 
 ---
 
