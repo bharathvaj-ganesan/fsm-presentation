@@ -258,7 +258,6 @@ class: text-center
 
 ---
 
-
 # Resources
 
 * https://xstate.js.org/
@@ -268,6 +267,8 @@ class: text-center
 * http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf
 * https://rauchg.com/2015/pure-ui
 * https://medium.com/@asolove/pure-ui-control-ac8d1be97a8d
+* https://www.youtube.com/watch?v=tpNmPKjPSFQ
+
 
 ---
 layout: center
