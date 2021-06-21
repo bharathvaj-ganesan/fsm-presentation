@@ -10,13 +10,11 @@ class: 'text-center'
 highlighter: shiki
 # some information about the slides, markdown enabled
 info: |
-  ## Visualize Application State with XState
-
-  Built with [Sli.dev](https://sli.dev)
+  ## Building better UI with Finite Automata
 ---
 
 <div class="text-left">
-  <h1>Visualize Application State <br>with<div class="text-red-500">State Machines</div></h1>
+  <h1>Building Better UI <br>with<div class="text-red-500">Finite Automata</div></h1>
   <a href="https://twitter.com/bharathvaj_g">@bharathvaj_g</a>
 </div>
 
@@ -31,39 +29,71 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+<div class="flex justify-center flex-col items-center h-100">
+  <h1>Developing user interfaces <span class="text-red-500">is not easy</span></h1>
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+  <img class="mt-4" width="300" src="https://i.redd.it/hixi2erwagxy.gif" />
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+</div>
 
-<br>
-<br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+---
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+<div class="flex justify-center flex-col items-center text-center h-100">
+  <h1>Deterministic Finite Automata<div class="text-red-500">(Finite State Machines)</div></h1>
+</div>
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-</style>
+---
+
+<div class="flex justify-center flex-col items-center h-100">
+  
+  <blockquote>
+    <h1>Finite State Machine is an important 16 mark question</h1>
+    <cite class="text-red-500 block text-right">-- College Professor</cite>
+  </blockquote>
+
+</div>
+
+---
+
+# Automata theory
+
+* Combinatorial logic
+* <span class="text-red-800">Finite state machines</span>
+* Pushdown automata
+* Turing machines
+
+
+<img class="float-right abs-br m-6" width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Automata_theory.svg/1600px-Automata_theory.svg.png">
+
+---
+
+# What is a state machine?
+
+<div class="mt-8">
+  <a href="https://en.wikipedia.org/wiki/Finite-state_machine">Definition from Wikipedia</a>
+
+  <blockquote class="mt-6">
+    an abstract machine that can be in exactly one of a finite number of states at any given time. The FSM can change from one state to another in response to some external inputs; the change from one state to another is called a transition. An FSM is defined by a list of its states, its initial state, and the conditions for each transition.
+  </blockquote>
+
+  And further: 
+  
+  <blockquote class="mt-4">
+    A state is a description of the status of a system that is waiting to execute a transition.
+  </blockquote>
+
+</div>
+
+---
+
+<div class="flex justify-center flex-col items-center h-100 text-center">
+  <div>
+    <img class="m-auto" height="300" width="400" src="http://web.mit.edu/2.744/studentSubmissions/humanUseAnalysis/keval/vm.jpg">
+    <div class="mt-4">Start -> Select Shelf -> Money -> Dispatch Snacks</div>
+  </div>
+</div>
+
 
 ---
 
@@ -73,12 +103,6 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 ### Keyboard Shortcuts
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
